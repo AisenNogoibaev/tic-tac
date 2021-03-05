@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./xo.css">
+    <title>Krestiki Noliki</title>
+</head>
+<body>
+    <div id="root" class="root">
+        <div class="currentPlayer">
+            <span>Now going is  - <span id="currentPl">X</span></span>
+        </div>
+        <div class="gameResult">
+            <span>Result game:</span>
+            <br>
+            <span id="whoWins"></span>
+        </div>
+        <div class="gameHistory">
+            <div id="roundHistory">History of game</div><br>
+        </div>
+        <div id="area"></div>
+        <div class="stat">
+            <table>
+                <th colspan="2">Statistics</th>
+                <tr>
+                    <td>Victory X</td>
+                    <td id="sX">
+                        <span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Victory O</td>
+                    <td id="sO">
+                        <span>0</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tie</td>
+                    <td id="sD">
+                        <span>0</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <script src="./xo.js"></script>
+</body>
+</html>
